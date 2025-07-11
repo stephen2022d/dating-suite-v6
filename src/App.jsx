@@ -2,10 +2,9 @@ import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from 'react-router-dom'
 import './App.css'
 
-// Import hero images
-import heroDiversePeople from './assets/hero-diverse-people.jpg'
-import heroWomanSmiling from './assets/hero-woman-smiling.jpg'
-import heroManSmiling from './assets/hero-man-smiling.jpg'
+const heroWomanSmiling = "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80";
+const heroManSmiling = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80";
+const heroDiversePeople = "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80";
 
 // Landing Page Component
 const LandingPage = () => {
